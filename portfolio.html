@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipe Daniel | Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-cabecalho">
+            <a href="index.html" class="logo">Filipe Daniel</a>
+            <button type="button" class="botao-menu" id="botaoMenu" aria-label="Abrir menu">☰</button>
+            <nav class="menu" id="menuNavegacao">
+                <a href="index.html">Sobre mim</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html" class="ativo">Portfólio</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <button type="button" class="botao-tema" id="botaoTema">🌙</button>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="secao destaque">
+            <div class="container">
+                <h1>Portfólio</h1>
+                <p class="subtitulo">Projetos acadêmicos e experiências profissionais</p>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div class="container">
+                <h2>Projetos Acadêmicos</h2>
+                <div class="grade-portfolio">
+                    <article class="cartao-portfolio">
+                        <h3>Portfólio Online – Fundamentos da Programação Web</h3>
+                        <p>
+                            Site pessoal com informações profissionais, formação acadêmica, portfólio
+                            e formulário de contato. Inclui menu responsivo, validação de dados e
+                            alternância entre tema claro e escuro.
+                        </p>
+                        <p class="tecnologias">HTML5 | CSS3 | JavaScript</p>
+                        <a href="index.html" class="link-projeto">Este site</a>
+                    </article>
+
+                    <article class="cartao-portfolio">
+                        <h3>Sistema de Planos de Saúde</h3>
+                        <p class="periodo">Atividade prática – Lógica de Programação | UNINTER</p>
+                        <p>
+                            Programa que recebe o valor base do plano e a idade do cliente, aplica
+                            faixas etárias com porcentagens diferentes e calcula o valor mensal
+                            a ser pago. Valida a idade informada antes de exibir o resultado.
+                        </p>
+                        <p class="tecnologias">Python | Condicionais | Entrada de dados</p>
+                    </article>
+
+                    <article class="cartao-portfolio">
+                        <h3>Sistema de Pedidos – Pizzaria</h3>
+                        <p class="periodo">Atividade prática – Lógica de Programação | UNINTER</p>
+                        <p>
+                            Simulação de pedidos em uma pizzaria com cardápio de sabores salgados
+                            e doces em três tamanhos. O usuário monta o pedido em loop, com validação
+                            das opções, e o sistema acumula o valor total a pagar.
+                        </p>
+                        <p class="tecnologias">Python | Laços de repetição | Validação de dados</p>
+                    </article>
+
+                    <article class="cartao-portfolio">
+                        <h3>Sistema de Orçamento – Madeireira</h3>
+                        <p class="periodo">Atividade prática – Lógica de Programação | UNINTER</p>
+                        <p>
+                            Aplicação para calcular pedidos de madeira com escolha do tipo de toras,
+                            quantidade em m³ com desconto progressivo e seleção do transporte
+                            (rodoviário, ferroviário ou hidroviário). Organizado em funções com
+                            tratamento de erros.
+                        </p>
+                        <p class="tecnologias">Python | Funções | Tratamento de exceções</p>
+                    </article>
+
+                    <article class="cartao-portfolio">
+                        <h3>Lista de Contatos</h3>
+                        <p class="periodo">Atividade prática – Estruturas de Dados | UNINTER</p>
+                        <p>
+                            Sistema de agenda com menu interativo para cadastrar, consultar e remover
+                            contatos. Os dados são armazenados em lista de dicionários, com busca por
+                            id, listagem completa e filtro por atividade.
+                        </p>
+                        <p class="tecnologias">Python | Listas | Dicionários | Menu interativo</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div class="container">
+                <h2>Experiência Profissional</h2>
+                <div class="grade-portfolio">
+                    <article class="cartao-portfolio">
+                        <h3>Atendente da Polícia Civil</h3>
+                        <p class="periodo">MAIA & PIMENTEL SERVIÇOS E CONSULTORIA LTDA | 15/07/2025 – 06/06/2026</p>
+                        <p>
+                            Atendimento ao público presencial, orientação sobre procedimentos administrativos,
+                            organização de documentos, apoio em protocolo e arquivamento, controle de informações
+                            em sistemas internos e auxílio no fluxo de atendimento ao cidadão.
+                        </p>
+                    </article>
+
+                    <article class="cartao-portfolio">
+                        <h3>Técnico em Secretariado</h3>
+                        <p class="periodo">F M TERCEIRIZAÇÃO LTDA | 20/02/2025 – 30/06/2025</p>
+                        <p>
+                            Atendimento ao público e suporte administrativo, elaboração e arquivamento de documentos,
+                            organização de agendas e relatórios, controle de registros internos, atendimento
+                            telefônico e utilização de sistemas informatizados.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Filipe Daniel Oliveira da Costa – Rio Branco/AC</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

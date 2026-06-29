@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipe Daniel | Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-cabecalho">
+            <a href="index.html" class="logo">Filipe Daniel</a>
+            <button type="button" class="botao-menu" id="botaoMenu" aria-label="Abrir menu">☰</button>
+            <nav class="menu" id="menuNavegacao">
+                <a href="index.html">Sobre mim</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html" class="ativo">Contato</a>
+            </nav>
+            <button type="button" class="botao-tema" id="botaoTema">🌙</button>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="secao destaque">
+            <div class="container">
+                <h1>Contato</h1>
+                <p class="subtitulo">Entre em contato comigo</p>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div class="container">
+                <div class="layout-contato">
+                    <div class="info-contato">
+                        <h2>Informações</h2>
+                        <p><strong>E-mail:</strong> <a href="mailto:pepeitalaguila123@gmail.com">pepeitalaguila123@gmail.com</a></p>
+                        <p><strong>Telefone:</strong> (68) 9.9215-2002 / (68) 9.9210-4758</p>
+                        <p><strong>Endereço:</strong> Av. Epaminondas Jácome, nº 1914 – Bairro Cadeia Velha – Rio Branco/AC</p>
+                        <p>
+                            Coloco-me à disposição para participar de processos seletivos e entrevistas,
+                            onde poderei apresentar de forma mais detalhada minhas qualificações e objetivos profissionais.
+                        </p>
+                    </div>
+
+                    <form class="formulario" id="formularioContato" novalidate>
+                        <h2>Envie uma mensagem</h2>
+
+                        <div class="campo">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                            <span class="erro" id="erroNome"></span>
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+                            <span class="erro" id="erroEmail"></span>
+                        </div>
+
+                        <div class="campo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                            <span class="erro" id="erroMensagem"></span>
+                        </div>
+
+                        <button type="submit" class="botao-enviar">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modalSucesso">
+        <div class="modal-conteudo">
+            <h3>Mensagem enviada com sucesso!</h3>
+            <p>Obrigado pelo contato. Retornarei em breve.</p>
+            <button type="button" class="botao-enviar" id="fecharModal">Fechar</button>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Filipe Daniel Oliveira da Costa – Rio Branco/AC</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
